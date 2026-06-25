@@ -5,6 +5,7 @@ import { FeaturedArtists } from "@/components/FeaturedArtists";
 import { ArtTypes } from "@/components/ArtTypes";
 import { ArtSpaces } from "@/components/ArtSpaces";
 import { ArtworkGrid } from "@/components/ArtworkGrid";
+import { DesignCollaboration } from "@/components/DesignCollaboration";
 import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -19,6 +20,7 @@ const Index = () => {
       <ArtTypes />
       <ArtSpaces />
       <ArtworkGrid />
+      <DesignCollaboration />
       <AboutSection />
       <ContactSection />
       <Footer />

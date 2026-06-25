@@ -36,6 +36,12 @@ export function Header() {
               Работы
             </button>
             <button
+              onClick={() => scrollToSection("designers")}
+              className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
+            >
+              Дизайнерам
+            </button>
+            <button
               onClick={() => scrollToSection("about")}
               className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
             >
@@ -75,6 +81,12 @@ export function Header() {
                 className="text-sm tracking-wide hover:text-muted-foreground transition-colors text-left"
               >
                 Работы
+              </button>
+              <button
+                onClick={() => scrollToSection("designers")}
+                className="text-sm tracking-wide hover:text-muted-foreground transition-colors text-left"
+              >
+                Дизайнерам
               </button>
               <button
                 onClick={() => scrollToSection("about")}
