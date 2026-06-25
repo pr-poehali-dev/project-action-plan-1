@@ -28,7 +28,8 @@ export function ContactSection() {
           <div className="text-center mb-12">
             <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Свяжитесь с нами</h2>
             <p className="text-muted-foreground text-lg">
-              Хотите узнать больше о наших художниках или приобрести работу? Мы будем рады вашему обращению.
+              Хотите узнать больше о современных художниках нашей галереи или приобрести работу онлайн?
+              Напишите нам — мы будем рады вашему обращению.
             </p>
           </div>
 
